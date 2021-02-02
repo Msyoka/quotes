@@ -37,7 +37,7 @@ export class QuotesComponent implements OnInit {
     }
   }
  
-  displayInfo(index: string | number){
+  displayInfo(index: any){
     this.quotes[index].showInfo = !this.quotes[index].showInfo;
   }
   constructor() { }
